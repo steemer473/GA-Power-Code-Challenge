@@ -1,4 +1,10 @@
 //----------------------------------*\
+// Add Bootstrap
+//----------------------------------*/
+
+@import 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss';
+
+//----------------------------------*\
 // SCSS MIXINS
 //----------------------------------*/
 
@@ -13,6 +19,7 @@
 @import 'modules/_clearfix.scss';
 @import 'modules/_defaults.scss';
 @import 'modules/_normalize.scss';
+
 //----------------------------------*\
 // PARTIALS
 //----------------------------------*/
@@ -35,7 +42,7 @@
 @import 'modules/_app.scss';
 
 // Enhancement modules
-@import 'modules/_breakpoints.scss';
+//@import 'modules/_breakpoints.scss';
 @import 'modules/_print.scss';
 
 //----------------------------------*\
