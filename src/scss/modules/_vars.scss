@@ -1,3 +1,18 @@
 $base : #F7F6F0;
 $darken : darken(#F7F6F0 , 30%);
 $back: darken(#F7F6F0, 40%);
+
+//ray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         darken(#007CB8, 6.5%) !default; // #337ab7
+$brand-success:         #B2D234 !default;
+$brand-info:            #00BBF0 !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #EB1C23 !default;

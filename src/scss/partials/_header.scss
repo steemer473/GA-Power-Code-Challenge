@@ -1,10 +1,97 @@
-.header {
-
+.jumbotron {
+    background-color: transparent;
 }
-.logo {
-  margin: -58px 0 0 -100px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
 
-  }
+.headline-text h1,
+.headline-text h2,
+.headline-text h3
+.headkine-text p {
+    color: #fff;
+}
+
+.headline-text h1 {
+    font-size: 3.5em;
+}
+
+.headline-text h2 {
+    padding-bottom: 20px;
+}
+
+.headline-text p {
+    margin: 20px 0;
+}
+
+.headline-text p button {
+    max-width: 500px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.header-unit {
+    height: 526px;
+    border-right:none;
+    border-left: none;
+    position: relative;
+    padding: 20px;
+}
+
+.header {
+    height: 526px;
+}
+
+@media (max-width: 425px) {
+    .header {
+        height: 314px;
+    }
+}
+
+.video-container {
+    position: absolute;
+}
+
+.video-container {
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+video {
+    position:absolute;
+    z-index:0;
+}
+
+video.fillWidth {
+    width: 100%;
+}
+
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+div.headline-text {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    z-index: 200 !important;
+}
+
+.poster {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #f00 url(/assets/img/holiday-spirit.jpg) no-repeat fixed center center;
+    padding: 2em 0;
+}
+
+.poster h1,
+.poster h4,
+.poster h5 {
+    color: #fff;
 }

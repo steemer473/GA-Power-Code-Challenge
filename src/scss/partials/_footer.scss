@@ -1,3 +1,29 @@
-.footer {
+footer ul {
+    list-style-type: none;
+    padding: 0;
 
 }
+
+footer h4 {
+    font-size: 14px;
+    color: #eee;
+}
+
+footer ul li a {
+    color: #eee;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    padding: 2em 0;
+
+}
+
+

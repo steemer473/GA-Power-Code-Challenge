@@ -5766,16 +5766,18 @@ button.close {
 
 html {
   font-size: 62.5%;
-  background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
+  /*background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);*/ }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
   color: #444;
-  transition: all .4s .3s ease-in; }
+  transition: all .4s .3s ease-in;
+  padding-top: 70px;
+  background-color: transparent; }
 
 body, html {
   min-height: 100vh;
-  overflow: hidden; }
+  /*overflow: hidden; //disabled because stops browser from scrolling*/ }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -6143,14 +6145,173 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-.logo {
-  margin: -58px 0 0 -100px;
+.jumbotron {
+  background-color: transparent; }
+
+.headline-text h1,
+.headline-text h2,
+.headline-text h3 .headkine-text p {
+  color: #fff; }
+
+.headline-text h1 {
+  font-size: 3.5em; }
+
+.headline-text h2 {
+  padding-bottom: 20px; }
+
+.headline-text p {
+  margin: 20px 0; }
+
+.headline-text p button {
+  max-width: 500px;
+  width: 100%;
+  padding: 15px 0; }
+
+.header-unit {
+  height: 526px;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  padding: 20px; }
+
+.header {
+  height: 526px; }
+
+@media (max-width: 425px) {
+  .header {
+    height: 314px; } }
+
+.video-container {
+  position: absolute; }
+
+.video-container {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+video {
   position: absolute;
-  top: 50%;
-  left: 50%; }
+  z-index: 0; }
+
+video.fillWidth {
+  width: 100%; }
+
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%; }
+
+div.headline-text {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  z-index: 200 !important; }
+
+.poster {
+  background-size: cover;
+  background: #f00 url(/assets/img/holiday-spirit.jpg) no-repeat fixed center center;
+  padding: 2em 0; }
+
+.poster h1,
+.poster h4,
+.poster h5 {
+  color: #fff; }
 
 .nav ul {
   list-style: none; }
+  .nav ul li a {
+    font-weight: 600; }
+
+nav .container {
+  position: relative;
+  top: 10px; }
+
+.navbar {
+  height: 70px; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    background-color: #333;
+    color: #fff; }
+  .navbar-nav li a {
+    text-align: center; }
+  .navbar-nav > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #eb1c23 !important;
+    color: #fff !important; } }
+
+.navbar-default .navbar-nav li a {
+  font-weight: 600; }
+
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav > .open > a {
+  color: #fff;
+  background-color: #d9534f;
+  font-weight: 600; }
+
+.dropdown-menu.multi-column {
+  width: 486px; }
+
+li.dropdown.container-fluid {
+  padding: 0; }
+
+.dropdown-menu li a {
+  font-weight: 400 !important;
+  text-align: center; }
+
+.dropdown-menu.multi-column .dropdown-menu {
+  display: block !important;
+  position: static !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important; }
+
+.dropdown-menu img {
+  max-height: 131px;
+  width: 100%; }
+
+.btn-group {
+  top: 9px; }
+
+.registration-block-xs {
+  margin-bottom: 2em; }
+
+div#ad-section1 {
+  background-color: #f8f8f8;
+  padding: 2em 0; }
+
+i.fa,
+#ad-section1 h5 {
+  color: #eb1c23; }
+
+.fa-5x {
+  font-size: 7em; }
+
+footer ul {
+  list-style-type: none;
+  padding: 0; }
+
+footer h4 {
+  font-size: 14px;
+  color: #eee; }
+
+footer ul li a {
+  color: #eee;
+  font-size: 13px;
+  font-weight: 400; }
+
+footer ul li a:hover {
+  color: #e7e7e7;
+  text-decoration: none; }
+
+.footer {
+  background-color: #333;
+  padding: 2em 0; }
 
 @font-face {
   font-family: 'Font-Name';
