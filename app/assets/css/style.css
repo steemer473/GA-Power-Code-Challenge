@@ -6242,10 +6242,8 @@ div.headline-text {
 
 #twitter-header {
   background-size: cover;
-  background: #333 url(http://speedisites.com/gap/assets/img/winter-scene-background-optimized.jpg) no-repeat fixed center center;
-  padding: 3em 0;
-  min-height: 275px;
-  height: 100%; }
+  background: #333 url(http://speedisites.com/gap/assets/img/material-background-blue) no-repeat fixed 50% 50%;
+  padding: 3em 0; }
 
 .nav ul {
   list-style: none; }
