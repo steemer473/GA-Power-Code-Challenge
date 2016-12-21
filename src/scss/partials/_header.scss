@@ -5,7 +5,7 @@
 .headline-text h1,
 .headline-text h2,
 .headline-text h3
-.headkine-text p {
+.headline-text p {
     color: #fff;
 }
 
@@ -114,4 +114,13 @@ div.headline-text {
 .poster h4,
 .poster h5 {
     color: #fff;
+}
+
+#twitter-header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #333 url(http://speedisites.com/gap/assets/img/snowflakes-stars-background.jpg) no-repeat fixed center center;
+    padding: 2em 0;
 }

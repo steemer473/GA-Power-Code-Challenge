@@ -1,5 +1,6 @@
 <script src="assets/components/jquery/jquery.min.js"></script>
 <script src="assets/components/bootstrap/javascript/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
 <script src="assets/js/scripts.min.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
