@@ -6242,8 +6242,10 @@ div.headline-text {
 
 #twitter-header {
   background-size: cover;
-  background: #333 url(http://speedisites.com/gap/assets/img/snowflake.jpg) no-repeat fixed center center;
-  padding: 3em 0; }
+  background: #333 url(http://speedisites.com/gap/assets/img/winter-scene-background-optimized.jpg) no-repeat fixed center center;
+  padding: 3em 0;
+  min-height: 275px;
+  height: 100%; }
 
 .nav ul {
   list-style: none; }
@@ -6444,6 +6446,12 @@ i.fa,
         -ms-transform: none !important;
             transform: none !important;
     position: relative !important; } }
+
+#feeds-container {
+  margin: 2em auto; }
+
+#timeline {
+  margin-top: 1em; }
 
 footer ul {
   list-style-type: none;
