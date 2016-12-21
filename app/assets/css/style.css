@@ -6181,6 +6181,16 @@ textarea {
   .header {
     height: 314px; } }
 
+@media (min-width: 768px) and (max-width: 768px) {
+  .header {
+    height: 425px; }
+  .header-unit {
+    height: 434px;
+    border-right: none;
+    border-left: none;
+    position: relative;
+    padding: 20px; } }
+
 .video-container {
   position: absolute; }
 
@@ -6211,9 +6221,18 @@ div.headline-text {
   width: 100%;
   z-index: 200 !important; }
 
+/*
 .poster {
-  background-size: cover;
-  background: #f00 url(/assets/img/holiday-spirit.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #333 url(http://speedisites.com/gap/assets/img/holiday-spirit.jpg) no-repeat fixed center center;
+    padding: 2em 0;
+}
+*/
+.poster {
+  background-color: #333;
   padding: 2em 0; }
 
 .poster h1,
@@ -6236,7 +6255,13 @@ nav .container {
 @media (max-width: 767px) {
   .navbar-default .navbar-collapse {
     background-color: #333;
-    color: #fff; }
+    color: #fff; } }
+
+@media (max-width: 767px) and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-nav > li > a {
+    padding: 15px 8px; } }
+
+@media (max-width: 767px) {
   .navbar-nav li a {
     text-align: center; }
   .navbar-nav > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:hover {

@@ -27,6 +27,12 @@ nav .container {
         }
     }
 
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .navbar-nav>li>a {
+            padding: 15px 8px;
+        }
+    }
+
     .navbar-nav li a {
         text-align: center;
     }
