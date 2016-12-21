@@ -6150,10 +6150,14 @@ textarea {
 
 .headline-text h1,
 .headline-text h2,
-.headline-text h3 .headline-text p {
+.headline-text h3,
+.headline-text p,
+#twitter-header h1,
+#twitter-header h3 {
   color: #fff; }
 
-.headline-text h1 {
+.headline-text h1,
+#twitter-header h2 {
   font-size: 3.5em; }
 
 .headline-text h2 {
@@ -6242,7 +6246,7 @@ div.headline-text {
 
 #twitter-header {
   background-size: cover;
-  background: #333 url(http://speedisites.com/gap/assets/img/material-background-blue) no-repeat fixed 50% 50%;
+  background: #333 url(http://speedisites.com/gap/assets/img/material-background-blue.gif) no-repeat fixed 50% 50%;
   padding: 3em 0; }
 
 .nav ul {
