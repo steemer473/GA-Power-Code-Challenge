@@ -6,3 +6,7 @@
  * @version 1.0.5
  * Copyright 2016. MIT licensed.
  */
+(function ($, window, document, undefined) {
+    'use strict';
+    // FastShell
+})(jQuery, window, document);

@@ -5750,6 +5750,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/*Mixin for Gradients*/
 .clear:before, .clear:after {
   content: ' ';
   display: table; }
@@ -6327,6 +6328,13 @@ i.fa,
 #ad-section1 h5 {
   color: #eb1c23; }
 
+#ad-section2 {
+  padding: 2em 0; }
+
+#ad-section2 image {
+  max-width: 200px;
+  width: 100%; }
+
 .fa-5x {
   font-size: 7em; }
 
@@ -6459,6 +6467,10 @@ i.fa,
 #timeline {
   margin-top: 1em; }
 
+.gray-gradient {
+  background: #eee;
+  background: linear-gradient(to bottom, #eee, #fff); }
+
 footer ul {
   list-style-type: none;
   padding: 0; }
@@ -6506,6 +6518,14 @@ footer ul li a:hover {
   background: #333;
   color: #fff;
   text-shadow: none; }
+
+/*Google Search form/Bootstrap conflict fix */
+.reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after, .gsc-inline-block {
+  box-sizing: content-box; }
+
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
+  box-sizing: content-box;
+  line-height: normal; }
 
 @media print {
   * {

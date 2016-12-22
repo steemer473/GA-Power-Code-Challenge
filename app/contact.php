@@ -47,7 +47,7 @@
         }
     </style>
 </head>
-<body>
+<body class="gray-gradient">
     <?php include 'common/menu.php';?>
     <header>
         <div class="jumbotron">

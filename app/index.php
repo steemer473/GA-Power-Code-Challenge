@@ -26,6 +26,20 @@
             </div>
         </div>
     </div>
+    <div id="ad-section2">
+        <div class="container">
+            <div class="col-md-4 text-center">
+                <img src="assets/img/alabama-power-logo.png" alt="Alabama Power Logo" class="img-responsive" />
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="assets/img/gapower-southern-logo.png" alt="GA Power Southern Company" class="img-responsive" />
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="assets/img/southern-company-logo.gif" alt="Southern Company Logo" class="img-responsive" />
+            </div>
+        </div>
+    </div>
     <?php include 'common/footer.php';?>
     <?php include 'common/foot.php';?>
 

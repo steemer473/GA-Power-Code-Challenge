@@ -55,6 +55,7 @@
                     <a href="#">For My Home</a>
                 </li>
                 <li><a href="#">For My Business</a></li>
+                <li><a href="/news.php">News</a></li>
 
                 <li><a href="/contact.php">Contact Us</a></li>
             </ul>

@@ -16,7 +16,18 @@
                 <h4 class="modal-title">Search Cambia Research</h4>
             </div>
             <div class="modal-body">
-                <!-- Add the modal body here -->
+                <script>
+                    (function() {
+                        var cx = '006795201050006707412:o-sasvb0jdo';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

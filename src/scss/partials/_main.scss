@@ -8,6 +8,15 @@ i.fa,
     color: #eb1c23;
 }
 
+#ad-section2 {
+    padding: 2em 0;
+}
+
+#ad-section2 image {
+    max-width: 200px;
+    width: 100%;
+}
+
 .fa-5x {
     font-size: 7em;
 }
@@ -163,4 +172,8 @@ i.fa,
 
 #timeline {
     margin-top: 1em;
+}
+
+.gray-gradient {
+    @include gradient (#eee, #fff, vertical);
 }
