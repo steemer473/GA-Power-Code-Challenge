@@ -6156,8 +6156,8 @@ textarea {
 #twitter-header h3 {
   color: #fff; }
 
-.headline-text h1,
-#twitter-header h2 {
+h1.headline-text,
+#twitter-header h1.headline-text {
   font-size: 3.5em; }
 
 .headline-text h2 {
@@ -6248,6 +6248,10 @@ div.headline-text {
   background-size: cover;
   background: #333 url(http://speedisites.com/gap/assets/img/material-background-blue.gif) no-repeat fixed 50% 50%;
   padding: 3em 0; }
+
+.twitter-body {
+  background: linear-gradient(top, #efefef, #fff);
+  background-color: #efefef; }
 
 .nav ul {
   list-style: none; }

@@ -8,19 +8,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://www.georgiapower.com/">
+            <a class="navbar-brand" href="/index.php">
                 <img src="assets/img/gapower-logo.jpg" alt="GA Power Logo"/></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="#">For My Home</a>
-                </li>
-                <li><a href="#">For My Business</a></li>
+                <li  class="active"><a href="index.php">Home</a></li>
                 <li class="dropdown container-fluid">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Community<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
                     <div class="dropdown-menu multi-column">
                         <div class="container-fluid">
                             <div class="row">
@@ -54,22 +51,28 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <a href="#">For My Home</a>
+                </li>
+                <li><a href="#">For My Business</a></li>
+
+                <li><a href="/contact.php">Contact Us</a></li>
             </ul>
-            <form class="navbar-form navbar-right hidden-xs hidden-sm">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+            <div id="search-icon" class="btn-group" role="group">
+                <a class="pull-right" href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                    <i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
+            </div>
             <div class="btn-group navbar-right hidden-xs hidden-sm hidden-md" role="group" aria-label="registration">
-                <button type="button" class="btn btn-danger">Register</button>
-                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">My Account</button>
+                <button type="button" class="btn btn-primary">Register</button>
             </div>
             <div class="visible-xs registration-block-xs">
-                <button type="button" class="btn btn-danger btn-block">Register</button>
-                <button type="button" class="btn btn-primary btn-block">Login</button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">My Account</button>
+                <button type="button" class="btn btn-primary">Register</button>
             </div>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<?php include 'common/modal-signup-form.php';?>
+<?php include 'common/modal-search.php';?>
+

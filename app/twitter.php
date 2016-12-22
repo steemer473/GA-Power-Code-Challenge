@@ -3,7 +3,7 @@
 <head>
     <?php include 'common/head.php';?>
 </head>
-<body>
+<body class="twitter-body">
     <?php include 'common/menu.php';?>
     <?php include 'common/twitter-header.php';?>
     <div id="main" role="main">

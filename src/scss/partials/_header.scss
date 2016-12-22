@@ -11,8 +11,8 @@
     color: #fff;
 }
 
-.headline-text h1,
-#twitter-header h2 {
+h1.headline-text,
+#twitter-header h1.headline-text {
     font-size: 3.5em;
 }
 
@@ -126,4 +126,14 @@ div.headline-text {
     background-size: cover;
     background: #333 url(http://speedisites.com/gap/assets/img/material-background-blue.gif) no-repeat fixed 50% 50%;
     padding: 3em 0;
+}
+
+.twitter-body {
+    background: -webkit-gradient(linear, left top, right top, from(#efefef), to(#fff));
+    background: -webkit-linear-gradient(top, #efefef, #fff);
+    background: -moz-linear-gradient(top, #efefef, #fff);
+    background: -o-linear-gradient(top, #efefef, #fff);
+    background: -ms-linear-gradient(top, #efefef, #fff);
+    background: linear-gradient(top, #efefef, #fff);
+    background-color: #efefef;
 }
